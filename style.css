@@ -1,0 +1,21 @@
+.scrollbar {
+    overflow-y: scroll;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background-color: #1e3f20;
+    border-radius: 15px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #cc7856;
+    border-radius: 15px;
+}
